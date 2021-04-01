@@ -116,7 +116,6 @@ public class SpeechRecognition
             for ( int i = 0; i < data.size(); i++ )
             {
                 sendEvent(SPEECH_RESULTS, data.get(i), confidence[i]);
-                listener.speechDetected(data.get(i),confidence[i]);
             }
 
             sendEvent(SPEECH_RESULTS_DONE, "done", 0.0);
