@@ -25,3 +25,5 @@ dependencies {
     implementation 'com.github.siddeshpillai:appstudio-labs:Tag'
 }
 ```
+
+Published the maven dpendency on [JitPack.io](https://jitpack.io/)
